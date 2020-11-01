@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f5;
+    height: 100vh;
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#body{
+    display: flex;
+    max-width: 1100px;
+    width: 95%;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Lucida Sans";
+}
+#welcome{
+    display: flex;
+    align-items: center;
+}
+#welcome h3{
+    margin-left: 20px;
+    font-family: Roboto;
+    font-size: 22px;
+}
+#logo{
+    width: 300px;
+}
+#nav{
+    display: flex;
+    align-items: center;
+}
+#nav .btnRegisterPhoto{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #fff;
+    background-color: #e02041;
+}
+#nav button{
+    border: none;
+    cursor: pointer;
+    position: relative;
+    width: 40px;
+    margin-left: 3px;
+
+}
+#nav button img{
+    width: 70%;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#feed{
+    margin-top: 50px;
+    width: 50%;
+    height: 425px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.posts{
+    height: 100%;
+    width: 100%;
+
+    background-color: #fff;
+    box-shadow: 1px 1px 2px grey;
+    border-radius: 5px;
+    padding-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+.posts img{
+    width: 96%;
+    height: auto;
+    border-radius: 3px;
+}
+.info{
+    width: 98%;
+    height: 65px;
+    display: flex;
+    padding: 8px 8px 8px 0px;
+}
+.info h3{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.info img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
